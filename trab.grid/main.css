@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    border: 0;
+  }
+  
+  header {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #ff97c2;
+  }
+
+  header, h1{
+    text-align: center;
+  }
+  
+  aside {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #fa4f96;
+  }
+  
+  main {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #ffbbdd;
+    padding: 1rem;
+  }
+
+  main, h2{
+    text-align: center;
+  }
+
+  main img{
+    height: 100px;
+    width: 100px;
+  }
+
+  
+  footer {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #ff97c2;
+  }
+
+  footer, h3{
+    text-align: center;
+  }
